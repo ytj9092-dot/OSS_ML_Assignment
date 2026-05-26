@@ -31,7 +31,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # 3. 머신러닝 모델 생성
 model = RandomForestClassifier(
-    n_estimators=100,
+    # RandomForest의 트리 개수를 200개로 변경하여 성능을 확인.
+    n_estimators=200,
     random_state=42
 )
 
