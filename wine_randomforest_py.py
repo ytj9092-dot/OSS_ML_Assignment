@@ -48,3 +48,10 @@ accuracy = accuracy_score(y_test, y_pred)
 print("정확도:", accuracy)
 print("\n분류 결과 보고서")
 print(classification_report(y_test, y_pred, target_names=wine.target_names))
+
+
+print("\n모델 평가 완료")
+print("사용 데이터셋: Wine dataset")
+print("사용 모델: RandomForestClassifier")
+print("학습 데이터 비율: 80%")
+print("테스트 데이터 비율: 20%")
